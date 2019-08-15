@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daftar Hewan</title>
+    <script src="./hewan.js" defer></script>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="input"><br>
+    <button type="button" onclick="fungsiMasuk()">Masukkan</button><br><br>
+    <button type="button" onclick="fungsiSort()">Sort</button>
+    <!-- <button type="button" onclick="fungsiSortDesc()">Sort</button> -->
+
+    <br><br>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama Hewan</th>
+            </tr> 
+        </thead>
+        <tbody id="hewan"></tbody>
+    </table>
+    
+</body>
+</html>

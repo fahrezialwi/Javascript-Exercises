@@ -1,9 +1,9 @@
 arrKota = []
-var lanjut
+let kota, lanjut
 
 do {
-    if (arrKota.length<5) {
-        var kota = prompt("Masukkan nama kota:")
+    if (arrKota.length < 5) {
+        kota = prompt("Masukkan nama kota:")
         arrKota.push(kota)
         lanjut = true
     } else {
@@ -14,8 +14,8 @@ do {
 console.log(arrKota)
 
 var arrKotaSort = arrKota.sort((a, b) => {
-    var kotaA = a.toLowerCase()
-    var kotaB = b.toLowerCase()
+    let kotaA = a.toLowerCase()
+    let kotaB = b.toLowerCase()
     if (kotaA < kotaB)
         return -1
     else if (kotaA > kotaB)
@@ -25,10 +25,10 @@ var arrKotaSort = arrKota.sort((a, b) => {
 
 console.log (arrKotaSort)
 
-var arrKotaIncludes = []
+let arrKotaIncludes = []
 
-for (var i = 0 ; i<arrKota.length ; i++){
-    var ada = arrKota[i].includes("a")
+for (let i = 0 ; i<arrKota.length ; i++){
+    let ada = arrKota[i].includes("a")
     if (ada) {
         arrKotaIncludes.push(arrKota[i])
     }

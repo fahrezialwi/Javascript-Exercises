@@ -11,7 +11,7 @@ do {
     if (cekAngka){
         arrHobi.push(hobi)
     } else {
-        if (arrHobi.length<=2){
+        if (arrHobi.length <= 2){
             alert("Hobi Anda kurang banyak")
             cekAngka = true
         } else {

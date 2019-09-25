@@ -1,2 +1,3 @@
-# JC10-Frontend
+# Javascript Exercises
+
 Latihan soal javascript
